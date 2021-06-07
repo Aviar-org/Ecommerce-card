@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*main card*/
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+    margin-top: 70px;
+}
+.up {
+  content: "";
+  height: 250px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  background-color: #e0356e;
+  margin-left: 95px;
+  position: absolute;
+  z-index: 5;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.up img {
+  margin-left: 10px;
+  margin-top: 60px;
+  width: 300px;
+  height: 300px;
+}
+.down {
+  content: "";
+  height: 310px;
+  width: 350px; background-color: #1c2647; z-index: 3; margin-left: 95px;
+  margin-top: 250px;border-bottom-left-radius: 30px;border-bottom-right-radius: 30px;
+}
+
+/*product info */
+.product-info {
+  position: absolute;
+  margin-left: 50px;
+  z-index: 10;
+}
+
+h1 {
+  color: #e0356e;
+  font-family: "muli";
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 21px;
+  display: inline-block;
+}
+h3 {
+  color: #ffffff;
+  font-family: "muli";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 10px;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+h4 {
+  display: inline-block;
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h4.dis {
+  display: inline-block;
+  color: #ffffff;font-family: "muli";font-weight: 400;
+  font-size: 17px;
+  margin-left: 30px;
+  text-decoration: line-through #ea3201;
+}
+
+h4.dis span {
+  text-decoration: line-through #ea3201;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+ul li {
+  color: #ffffff;
+  font-family: "muli";
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.backgound {
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  padding: 2px;
+  margin-right: 20px;
+  transition: 0.3s all ease;
+  border-radius: 50%;
+}
+
+.backgound:hover {
+  background-color: #e0356e;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.yellow {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #fec60f;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+.black {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #000000;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+.blue {
+  content: "";
+  width: 13px;
+  height: 13px;
+  background-color: #02a2ca;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0);
+  transition: 0.3s all ease;
+}
+.yellow:hover,
+.black:hover,
+.blue:hover {
+  border: 2px solid #e0356e;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.buy-now{
+    background-color: #e0356e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.cart{
+    background-color: #e0356e;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+.buy-now:hover{
+  background-color: #02a2ca;
+}
+.cart:hover{
+  background-color: #02a2ca;
+}
